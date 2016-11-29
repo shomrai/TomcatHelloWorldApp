@@ -1,0 +1,6 @@
+applications:
+- path: target/TomcatHelloWorldApp.war
+  memory: 256M
+  instances: 1
+  disk_quota: 512M
+  buildpack: java_buildpack
